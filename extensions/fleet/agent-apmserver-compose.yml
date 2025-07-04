@@ -29,6 +29,7 @@ services:
       #FLEET_ENROLLMENT_TOKEN: <enrollment_token>
     ports:
       - 8200:8200
+      - 4318:4318
     hostname: apm-server
     # Elastic Agent does not retry failed connections to Kibana upon the initial enrollment phase.
     restart: on-failure
