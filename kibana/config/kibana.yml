@@ -97,3 +97,8 @@ xpack.fleet.agentPolicies:
                 value: 0.0.0.0:8200
               - name: url
                 value: http://apm-server:8200
+            enabled: true
+            otlp_http:
+              enabled: true
+              host: 0.0.0.0
+              port: 4318
